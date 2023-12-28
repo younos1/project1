@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="regression">
+<parameter name="selectedbrowser" value="chrome"></parameter>	
+<test name="fbhome_restart browser">
+<classes>
+<class name="ecommerce.batch8Testing.NewTest2"></class>
+</classes>
+</test>
+</suite>
